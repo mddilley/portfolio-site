@@ -2,8 +2,8 @@ import React from 'react'
 
 function Home() {
   return <>
-         <div class="top-right">
-           <img src="/headshot2squared.png" alt="Mike Dilley headshot" class="img-circle" />
+         <div className="top-right">
+           <img src="/headshot2squared.png" alt="Mike Dilley headshot" className="img-circle" />
          </div>
          <div className="bottom-right">
            <a href="https://github.com/mddilley"><i className="fab fa-github"></i></a><span>  | </span>

@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function TopBar() {
   return <div className="top-left">
-          <a href="#home">Home</a><br/>
-          <a href="#projects">Projects</a>
+          <Link to="/">Home</Link><br/>
+          <Link to="/projects">Projects</Link>
          </div>
 }
 
