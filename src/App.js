@@ -6,10 +6,14 @@ import Projects from './Components/Projects'
 
 function App() {
   return (
-    <div className="App">
-      <TopBar />
-      <Home />
-      <Projects />
+    <div className="table">
+      <div className="tablecell">
+        <div className="wrapper">
+          <TopBar />
+          <Home />
+          <Projects />
+        </div>
+      </div>
     </div>
   );
 }

@@ -3,8 +3,8 @@ import Project from './Project'
 
 function Projects() {
   return <div>
-          <h2>These are my projects!</h2>
-          <p><Project name={"Test Project"} /></p>
+          <h1>These are my projects!</h1>
+          <Project name={"Test Project"} />
          </div>
 }
 
