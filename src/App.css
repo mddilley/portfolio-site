@@ -77,6 +77,16 @@ body {
 
 /* sections */
 
+.top-right {
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: right;
+  margin: 10px 10px 0 0;
+  width: 100%;
+}
+
 .top-left {
   text-align: left;
   font-size: 4.7em;
@@ -102,4 +112,12 @@ body {
 
 h2 {
   margin: 0;
+}
+
+/* images */
+
+.img-circle {
+  border-radius: 50%;
+  width: 50%;
+  border: 1px solid #111;
 }
