@@ -107,6 +107,13 @@ body {
   margin: 0 10px 10px 0;
 }
 
+.bottom {
+  position: absolute;
+  bottom: 0;
+  height: 75%;
+  margin: 0 10px 10px 10px;
+}
+
 .desc {
   font-size: 0.40em;
   text-align: center;
