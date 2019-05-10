@@ -56,7 +56,6 @@ body {
   background: url(/bg.jpg) center no-repeat;
   background-size: cover;
   color: white;
-  /* font-family: 'Monserrat', sans-serif; */
   border: 1px solid black;
 }
 
@@ -117,8 +116,9 @@ body {
 
 /* elements */
 
-h2 {
+h1 {
   margin: 0;
+  font-weight: 400;
 }
 
 /* images */
@@ -130,6 +130,10 @@ h2 {
 }
 
 /* links */
+
+a:visited {
+  color: #FFF;
+}
 
 .top-left a:link {
   color: white;
