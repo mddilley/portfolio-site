@@ -141,7 +141,7 @@ a:visited {
 }
 
 .top-left a:hover {
-  color: rgba(102, 97, 52, 1);
+  color: rgb(239, 217, 69, 1);
   text-decoration: none;
 }
 
@@ -151,7 +151,7 @@ a:visited {
 }
 
 .bottom-right i:hover {
-  color: rgba(102, 97, 52, 1);
+  color: rgb(239, 217, 69, 1);
   text-decoration: none;
 }
 
