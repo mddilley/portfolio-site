@@ -74,3 +74,16 @@ body {
   text-align: center;
   vertical-align: middle;
 }
+
+/* sections */
+
+.top-left {
+  text-align: left;
+  font-size: 4.7em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  float: left;
+  margin: 10px 0 0 10px;
+  z-index: 2;
+}
