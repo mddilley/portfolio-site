@@ -108,6 +108,13 @@ body {
   margin: 0 10px 10px 0;
 }
 
+.desc {
+  font-size: 0.40em;
+  text-align: center;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
 /* elements */
 
 h2 {
