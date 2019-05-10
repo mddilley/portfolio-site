@@ -121,3 +121,31 @@ h2 {
   width: 50%;
   border: 1px solid #111;
 }
+
+/* links */
+
+.top-left a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.top-left a:hover {
+  color: rgba(102, 97, 52, 1);
+  text-decoration: none;
+}
+
+.bottom-right a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.bottom-right i:hover {
+  color: rgba(102, 97, 52, 1);
+  text-decoration: none;
+}
+
+/* icons */
+
+i {
+  color: white;
+}
