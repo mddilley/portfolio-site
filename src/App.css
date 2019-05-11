@@ -23,13 +23,19 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes slideIn {
+  0% {
+    transform: translateX(-900px);
   }
-  to {
-    transform: rotate(360deg);
+  25% {
+    transform: translateX(0);
   }
+  50%{
+    transform: translateX(-40px);
+  }
+  100% {
+    transform: translateX(0);
+}
 }
 
 /* html, body */
@@ -123,9 +129,13 @@ body {
 
 /* elements */
 
-h1 {
+h1#my-name {
   margin: 0;
   font-weight: 400;
+  position: relative;
+  -webkit-animation: slideIn 1s forwards;
+  -moz-animation: slideIn 1s forwards;
+  animation: slideIn 1s forwards;
 }
 
 /* images */
