@@ -212,6 +212,18 @@ a:visited {
   text-decoration: none;
 }
 
+.project-link {
+  color: white;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  -webkit-animation: colorFade 1.2s forwards;
+  -moz-animation: colorFade 1.2s forwards;
+  animation: colorFade 1.2s forwards;
+  text-decoration: none;
+}
+
 /* icons */
 
 i {
