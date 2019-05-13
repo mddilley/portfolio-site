@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
   return <>
          <div className="top-right">
-           <img src="/headshot2squared.png" alt="Mike Dilley headshot" className="img-circle" />
+           <img src="/headshot2squared.jpg" alt="Mike Dilley headshot" className="img-circle" />
          </div>
          <div className="bottom-right">
          <div className="desc">
