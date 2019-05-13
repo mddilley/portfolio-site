@@ -1,11 +1,10 @@
 import React from 'react'
 import Project from './Project'
+import projectData from '../Data/projectData'
 
 function Projects() {
   return <div className="bottom">
-          <Project name={"Test Project #1"} />
-          <Project name={"Test Project #2"} />
-          <Project name={"Test Project #3"} />
+          {projectData.map((project, i) => <Project key={i} name={project.name} img={project.img} description={project.description} />)}
          </div>
 }
 
