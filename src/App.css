@@ -127,6 +127,8 @@ body {
   bottom: 0;
   height: 75%;
   margin: 0 10px 10px 10px;
+  overflow: scroll;
+  width: 99%;
 }
 
 .desc {
@@ -134,6 +136,23 @@ body {
   text-align: center;
   padding-left: 3em;
   padding-right: 3em;
+}
+
+.project-container {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.project-left {
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.project-right {
+  justify-content: flex-end;
+  margin-left: 20px;
+  text-align: left;
+  font-size: 1.3em;
 }
 
 /* elements */
@@ -157,7 +176,6 @@ h1#my-name {
 
 .img-project {
   height: 400px;
-  float: left;
 }
 
 /* links */
