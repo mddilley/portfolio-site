@@ -24,18 +24,27 @@
 }
 
 @keyframes slideIn {
-  0% {
-    transform: translateX(-900px);
+    0% {
+      transform: translateX(-900px);
+    }
+    25% {
+      transform: translateX(0);
+    }
+    50%{
+      transform: translateX(-40px);
+    }
+    100% {
+      transform: translateX(0);
   }
-  25% {
-    transform: translateX(0);
-  }
-  50%{
-    transform: translateX(-40px);
-  }
-  100% {
-    transform: translateX(0);
 }
+
+@keyframes colorFade {
+    0% {
+      color: rgb(255, 255, 255, 1);
+    }
+    100% {
+      color: rgb(239, 217, 69, 1);
+  }
 }
 
 /* html, body */
@@ -158,7 +167,9 @@ a:visited {
 }
 
 .top-left a:hover {
-  color: rgb(239, 217, 69, 1);
+  -webkit-animation: colorFade 1.2s forwards;
+  -moz-animation: colorFade 1.2s forwards;
+  animation: colorFade 1.2s forwards;
   text-decoration: none;
 }
 
@@ -168,7 +179,9 @@ a:visited {
 }
 
 .bottom-right i:hover {
-  color: rgb(239, 217, 69, 1);
+  -webkit-animation: colorFade 1.2s forwards;
+  -moz-animation: colorFade 1.2s forwards;
+  animation: colorFade 1.2s forwards;
   text-decoration: none;
 }
 
