@@ -145,12 +145,12 @@ body {
 
 .project-left {
   justify-content: flex-start;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .project-right {
   justify-content: flex-end;
-  margin-left: 20px;
+  margin: 0px 20px 0px 20px;
   text-align: left;
   font-size: 1.3em;
 }
@@ -164,6 +164,10 @@ h1#my-name {
   -webkit-animation: slideIn 1s forwards;
   -moz-animation: slideIn 1s forwards;
   animation: slideIn 1s forwards;
+}
+
+h1.project-title {
+  margin: 0;
 }
 
 /* images */
